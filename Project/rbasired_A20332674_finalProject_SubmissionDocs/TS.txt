@@ -1,0 +1,78 @@
+Test#1: Activate 15 20 Start PayCash 15 Cancel TurnOff 
+Test#2: Activate 15 20 Start PayCredit Reject TurnOff 
+Test#3: Activate 15 20 Start PayCash 20 Regular StartPump StopPump Receipt TurnOff
+Test#4: Activate 15 20 Start PayCash 20 Regular StartPump StopPump NoReceipt TurnOff
+Test#5: Activate 15 20 Start PayCash 20 Super StartPump StopPump Receipt TurnOff
+Test#6: Activate 15 20 Start PayCash 20 Super PumpGallon StopPump Receipt NoReceipt
+Test#7: Activate 15 20 Start PayCash 20 Regular StartPump PumpGallon StopPump Receipt TurnOff
+Test#8: Activate 15 20 Start PayCash 20 Regular StartPump PumpGallon PumpGallon Receipt TurnOff
+Test#9: Activate 15 20 Start PayCredit Approved Cancel TurnOff 
+Test#10: Activate 15 20 Start PayCredit Approved Regular StartPump StopPump NoReceipt Start PayCredit Reject TurnOff
+Test#11: Activate 15 20 Start PayCredit Approved Super StartPump PumpGallon PumpGallon StopPump Receipt Start PayCredit Reject TurnOff
+Test#12: Activate 15 20 Start PayCredit Approved Cancel Start PayCredit Reject TurnOff 
+Test#13: Activate 15 20 TurnOff
+Test#14: Activate 10 15 Activate 10 15 PayCredit Reject Approved Cancel PayCash 10 Regular Super StartPump PumpGallon StopPump Receipt NoReceipt TurnOff
+Test#15: Activate 10 15 Start Activate 5 10 Start Reject Approved Cancel Regular Super StartPump PumpGallon StopPump Receipt NoReceipt PayCredit Reject TurnOff  
+Test#16: Activate 10 15 Start PayCredit Activate 5 5 Start PayCredit Cancel PayCash 10 Regular Super StartPump PumpGallon StopPump Receipt NoReceipt Approved Cancel TurnOff 
+Test#17: Activate 10 15 Start PayCredit Approved Activate 5 5 Start PayCredit Approved PayCash 10 StartPump PumpGallon StopPump Receipt NoReceipt Cancel TurnOff
+Test#18: Activate 10 15 Start PayCredit Approved Activate 5 5 Start PayCredit Approved Super Reject Cancel PayCash 10 Regular PumpGallon StopPump Receipt NoReceipt PumpGallon StopPump Receipt NoReceipt TurnOff
+Test#19: Activate 10 15 Start PayCredit Approved Super StartPump Activate 10 15 Start PayCredit Reject Approved Cancel PayCash 10 Regular Super StartPump Receipt NoReceipt StopPump Receipt TurnOff  
+Test#20: Activate 10 15 Start PayCredit Approved Super StartPump Activate 5 5 Start PayCredit Reject Approved Cancel PayCash 10 Regular Super StartPump PumpGallon
+ StopPump Receipt TurnOff 
+Test#21: Activate 4 5 TurnOff
+Test#22: Activate 4 -5 TurnOff
+Test#23: Activate -4 5 TurnOff
+Test#24: Activate -4 -5 TurnOff
+Test#25: Activate 4 5 Activate 4 5 TurnOff
+Test#26: Activate 4 -5 Activate 4 -5 TurnOff
+Test#27: Activate -4 5 Activate -4 5 TurnOff
+Test#28: Activate -4 -5 Activate -4 -5 TurnOff
+Test#29: Activate 10 15 Start PayCredit Reject TurnOff 
+Test#30: Activate 10 15 Start PayCredit Start Reject TurnOff 
+Test#31: Activate 10 15 Start PayCredit Reject TurnOff
+Test#32: Activate 10 15 Start PayCredit Reject PayCredit TurnOff
+Test#33: Activate 10 15 Start PayCredit Reject TurnOff
+Test#34: Activate 10 15 Reject TurnOff
+Test#35: Activate 10 15 Start PayCredit Approved Cancel TurnOff
+Test#36: Activate 10 15 Cancel TurnOff
+Test#37: Activate 10 15 Start PayCredit Approved Cancel TurnOff
+Test#38: Activate 10 15 Approved TurnOff
+Test#39: Activate 10 15 Start PayCash 10 Cancel TurnOff
+Test#40: Activate 10 15 Start PayCash -10 Cancel TurnOff
+Test#41: Activate 10 15 PayCash 10 TurnOff
+Test#42: Activate 10 15 PayCash -10 TurnOff
+Test#43: Activate 10 15 Start PayCash 10 Regular StartPump StopPump NoReceipt TurnOff
+Test#44: Activate 10 15 Regular TurnOff
+Test#45: Activate 10 15 Start PayCredit Super StartPump StopPump NoReceipt TurnOff
+Test#46: Activate 10 15 Super TurnOff
+Test#47: Activate 10 15 Start PayCash 10 Super StartPump StopPump NoReceipt TurnOff
+Test#48: Activate 10 15 StartPump TurnOff
+Test#49: Activate 10 15 Start PayCash 10 Super StartPump PumpGallon NoReceipt TurnOff
+Test#50: Activate 10 15 PumpGallon TurnOff
+Test#51: Activate 10 15 Start PayCredit Approved Regular StartPump PumpGallon StopPump NoReceipt TurnOff
+Test#52: Activate 10 15 Start PayCash 15 Regular StartPump PumpGallon NoReceipt TurnOff
+Test#53: Activate 10 15 Start PayCash 5 Regular StartPump PumpGallon NoReceipt TurnOff
+Test#54: Activate 10 15 Start PayCash 15 Regular StartPump PumpGallon NoReceipt TurnOff
+Test#55: Activate 10 15 Start PayCredit Approved Regular StartPump PumpGallon StopPump NoReceipt TurnOff
+Test#56: Activate 10 15 StopPump TurnOff
+Test#57: Activate 10 15 Start PayCredit Approved Regular StartPump PumpGallon StopPump NoReceipt TurnOff
+Test#58: Activate 10 15 NoReceipt TurnOff
+Test#59: Activate 10 15 Start PayCredit Approved Regular StartPump PumpGallon StopPump Receipt TurnOff
+Test#60: Activate 10 15 Receipt TurnOff
+Test#61: Activate 10 15 TurnOff
+Test#62: Activate 10 15 Start TurnOff PayCredit Reject TurnOff
+Test#63: Activate 10 15 Start PayCredit Approved Regular StopPump NoReceipt TurnOff
+Test#64: Activate 10 15 Start PayCredit Approved Super StartPump StopPump NoReceipt TurnOff
+$$
+
+
+
+
+
+
+
+
+
+
+
+
